@@ -1,0 +1,20 @@
+{
+  "name": "menopause-glow-site",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.4.4",
+    "marked": "^15.0.12"
+  },
+  "devDependencies": {
+    "pagefind": "^1.5.2",
+    "wrangler": "^4.156.0"
+  }
+}

@@ -1,0 +1,11 @@
+---
+// Page N of the articles list. The Worker serves this for /articles-1?7a69ba69_page=N, Webflow's pagination URL.
+import ArticlesIndex from '../../../components/pages/ArticlesIndex.astro';
+import { allArticles } from '../../../lib/cms';
+export async function getStaticPaths() {
+  const all = await allArticles();
+  const pages = Math.ceil(all.length / 8);
+  return Array.from({ length: pages - 1 }, (_, i) => ({ params: { n: String(i + 2) } }));
+}
+---
+<ArticlesIndex page={Number(Astro.params.n)} />

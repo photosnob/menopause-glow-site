@@ -1,0 +1,5 @@
+---
+import { isCurrent } from '../../lib/cms';
+const { g } = Astro.props;
+---
+<div class="article-tags-item w-dyn-item" role="listitem"><a class:list={["article-tag w-inline-block", { "w--current": isCurrent(g.url, Astro.url.pathname) }]} href={g.url} aria-current={isCurrent(g.url, Astro.url.pathname) ? "page" : undefined}><p>{g.name}</p></a></div>

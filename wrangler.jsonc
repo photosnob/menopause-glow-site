@@ -1,0 +1,18 @@
+{
+  // Cloudflare Workers config. Cloudflare runs `npm run build`, then `npx wrangler deploy` with this file.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "menopause-glow-site",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-06-01",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page",
+    // Only these paths run code (pagination); everything else is a plain static file
+    "run_worker_first": ["/articles-1", "/articles-1/page/*", "/tag/*"]
+  },
+  "observability": { "enabled": true }
+}

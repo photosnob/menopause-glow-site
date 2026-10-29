@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.themenopauseglow.com/sitemap-index.xml

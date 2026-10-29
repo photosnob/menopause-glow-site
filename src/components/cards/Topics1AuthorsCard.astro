@@ -1,0 +1,5 @@
+---
+import { isCurrent } from '../../lib/cms';
+const { u } = Astro.props;
+---
+<div class="topics-1-authors-item w-dyn-item" role="listitem"><a class:list={["topics-1-author-link w-inline-block", { "w--current": isCurrent(u.url, Astro.url.pathname) }]} data-w-id="48566849-282a-058d-1c8a-3380e63836fb" style="opacity:0" href={u.url} aria-current={isCurrent(u.url, Astro.url.pathname) ? "page" : undefined}><img class="topics-1-author-image" src={u.photo} loading="lazy" alt="" /><div class="topics-1-author-name" data-w-id="48566849-282a-058d-1c8a-3380e63836fd"><p>{u.name}</p></div></a></div>

@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "alison-armstrong",
+    "name": "Alison Armstrong",
+    "role": "Editor",
+    "descShort": "Sharing knowledge for women around the world",
+    "descLong": "Alison Armstrong is the dedicated editor behind The Menopause Glow, where she brings a wealth of experience, empathy, and a touch of humor to every article.",
+    "photo": "/images/672c4025ebf261bca9840329_pexels-774990922-29150827.webp",
+    "topicImage": "/images/672c35f83877b4883d949812_pexels-aditya-aiyar-615049-1407305.webp",
+    "bio": "<h2><strong>Alison Armstrong is the dedicated editor behind The Menopause Glow, where she brings a wealth of experience, empathy, and a touch of humor to every article</strong></h2><p><strong>Known for her insightful writing and sharp editorial eye, Alison is passionate about creating a supportive space for women navigating the ups and downs of menopause. With years of health and wellness journalism under her belt, she strives to make complex topics accessible, relatable, and even a bit fun.</strong></p><p>Alison’s mission is to empower readers with practical advice, backed by the latest research, and to celebrate this transformative phase of life with warmth and authenticity. When she’s not editing articles or researching the latest in menopause science, you might find her sipping herbal tea, exploring the outdoors, or championing wellness for women over 40.</p><p>‍</p>",
+    "createdAt": "2023-07-07T19:34:01.517Z"
+  },
+  {
+    "slug": "staff-editor",
+    "name": "The Glow Staff",
+    "role": "Editor",
+    "descShort": "",
+    "descLong": "",
+    "photo": "/images/67230d15da4b1fb184ecfdc5_pexels-scottwebb-1048035.webp",
+    "topicImage": "/images/6720496df00c13fa7ae009fa_pexels-pixabay-277590.jpg",
+    "bio": "<h2>Our seasoned health and wellness editors brings over years of experience in women’s health journalism to our team. Their passion for empowering women through education is evident in every article. With a backgrounds in medical research and a knack for translating complex information into accessible, engaging content, they ensure readers have the tools to navigate menopause with confidence and clarity.</h2>",
+    "createdAt": "2023-07-07T15:02:48.319Z"
+  }
+]

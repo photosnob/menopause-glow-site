@@ -1,0 +1,8 @@
+---
+import TagPage from '../../components/pages/TagPage.astro';
+import { tags } from '../../lib/cms';
+export async function getStaticPaths() {
+  return tags.map((g) => ({ params: { slug: g.slug }, props: { g } }));
+}
+---
+<TagPage g={Astro.props.g} page={1} />

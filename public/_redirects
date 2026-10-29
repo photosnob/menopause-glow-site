@@ -1,0 +1,6 @@
+# Webflow's sitemap address; keep it working for Search Console.
+/sitemap.xml   /sitemap-index.xml   301
+# Leftover Webflow ecommerce template pages (the site has no store).
+/checkout             /   301
+/paypal-checkout      /   301
+/order-confirmation   /   301

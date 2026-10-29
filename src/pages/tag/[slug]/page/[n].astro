@@ -1,0 +1,13 @@
+---
+// Page N of a tag's article list. The Worker serves this for /tag/<slug>?034f679d_page=N, Webflow's pagination URL.
+import TagPage from '../../../../components/pages/TagPage.astro';
+import { tags, allArticles, withTag } from '../../../../lib/cms';
+export async function getStaticPaths() {
+  const all = await allArticles();
+  return tags.flatMap((g) => {
+    const pages = Math.ceil(withTag(all, g.slug).length / 6);
+    return Array.from({ length: Math.max(0, pages - 1) }, (_, i) => ({ params: { slug: g.slug, n: String(i + 2) }, props: { g } }));
+  });
+}
+---
+<TagPage g={Astro.props.g} page={Number(Astro.params.n)} />

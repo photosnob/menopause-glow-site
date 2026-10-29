@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "symptoms",
+    "name": "Symptoms",
+    "color": "#dab79f",
+    "descShort": "Explore why you feel the way you do, the symptoms that have you wondering what's wrong–or simply what's right. ",
+    "description": "Explore why you feel the way you do, the symptoms that have you wondering what's wrong–or simply what's right. ",
+    "numberText": "04.",
+    "sorting": 4,
+    "image": "/images/672c35f83877b4883d949812_pexels-aditya-aiyar-615049-1407305.webp",
+    "createdAt": "2023-07-17T10:41:45.721Z"
+  },
+  {
+    "slug": "treatment",
+    "name": "Treatment",
+    "color": "hsla(200, 47.60%, 69.31%, 1.00)",
+    "descShort": "Look at ways to make menopause manageable. Explore the many different treatments, philosophies, and research so you create the path for you. ",
+    "description": "Look at ways to make menopause manageable. Explore the many different treatments, philosophies, and research so you create the path for you. ",
+    "numberText": "03.",
+    "sorting": 3,
+    "image": "/images/672c35d45fe97e1f52bb31f8_pexels-koko-rahmadie-63607-227908.webp",
+    "createdAt": "2023-07-10T14:22:17.259Z"
+  },
+  {
+    "slug": "resources",
+    "name": "Resources",
+    "color": "hsla(116, 44.36%, 73.92%, 1.00)",
+    "descShort": "Explore our menopause resources for expert guidance on managing symptoms and embracing this life transition with confidence. ",
+    "description": "\nExplore our menopause resources for expert guidance on managing symptoms and embracing this life transition with confidence. From articles on hormone-free treatments to lifestyle tips, we provide valuable information to support you every step of the way.",
+    "numberText": "01.",
+    "sorting": 1,
+    "image": "/images/672c3647a4dd0452a004664e_pexels-cottonbro-4769486.webp",
+    "createdAt": "2022-11-22T18:08:04.043Z"
+  }
+]
