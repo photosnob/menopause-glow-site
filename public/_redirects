@@ -4,3 +4,7 @@
 /checkout             /   301
 /paypal-checkout      /   301
 /order-confirmation   /   301
+# Articles removed because they had no body text; sent to the closest full page.
+/article/menopause-heavy-bleeding       /article/menopause-and-heavy-bleeding      301
+/article/symptoms-of-menopause-at-44    /article/symptoms-of-perimenopause-at-44   301
+/article/perimenopause-insomnia         /topic/symptoms                            301
