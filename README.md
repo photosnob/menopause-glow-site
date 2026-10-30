@@ -8,7 +8,7 @@ The markup, styles, scripts and interactions are Webflow's own (exported from th
 
 | What | Where |
 |---|---|
-| Articles (published and drafts) | `src/content/articles/<slug>.md`, the file name is the URL: `hot-flashes.md` → `/article/hot-flashes` |
+| Articles | `src/content/articles/<slug>.md`, the file name is the URL: `hot-flashes.md` → `/article/hot-flashes` |
 | Article fields (topic, tags, featured, dates…) | frontmatter at the top of each article, described in `src/content.config.ts` |
 | Topics, authors, tags | `src/data/topics.json`, `authors.json`, `tags.json` |
 | Which articles each list shows (latest, featured, trending, related, per topic/tag) | `src/lib/cms.ts` and the queries in each page's frontmatter |
